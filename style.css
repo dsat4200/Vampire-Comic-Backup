@@ -1,0 +1,254 @@
+body {
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+h1{
+    color:white;
+    margin:0;
+    padding:12px;
+    padding-left: 40px;
+    font-size: 40pt;
+}
+
+footer p{
+    color:white;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.home-image {
+    max-width: 50%;
+    margin-right: 20px; /* Add some margin for spacing */
+}
+
+.about-image {
+    max-width: 100%;
+    max-height: 400px;
+    background-size: contain ;
+    margin-right: 20px; /* Add some margin for spacing */
+}
+
+a{
+    color:white;
+}
+
+th{
+    font-size: large;
+    font-weight: bold;
+}
+.table-container{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.chapter-table{
+    align-items:center;
+    width:100%;
+}
+
+td a {
+    color:white;
+}
+
+.home-content p {
+    margin-right: 20px;
+    flex: 1; /* Allow the text to take up available space */
+    text-align: justify;
+    color:white;
+    font-size: 16pt;
+}
+
+.header_img {
+    background:url(pg/1_206.png);
+    height: 60px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+
+nav ul {
+    margin:0;
+    background-color: #1f1f1f;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+}
+
+nav ul li {
+    margin-right: 10px;
+    padding:0px 12px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+}
+
+main {
+    background: linear-gradient( black,#680000);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.footer {
+    background-color: #1f1f1f;
+}
+
+.welcome-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff3864;
+    text-align: center;
+}
+
+.start-reading-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: maroon;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 15px;
+    border: 2px solid #ff3864;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Read Comic Page Styles */
+.comic-page {
+    text-align: center;
+    width:100%;
+    background-size: cover;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.comic-page h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff3864;
+    text-align: center;
+}
+
+.page-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.prev-page-btn,
+.next-page-btn {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40px; /* Set a fixed width */
+    height: 200px; /* Stretch vertically to match the comic page */
+    font-size: 24px; /* Adjust font size as needed */
+    line-height: 1; /* Remove extra spacing inside the button */
+}
+
+.prev-page-btn:hover,
+.next-page-btn:hover {
+    background-color: #ff3864;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.navigation-buttons button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: maroon;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    border: 2px solid #ff3864;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 560px;
+}
+
+.flexcolumn{
+    flex:1;
+    background-color:rgb(121, 17, 137);
+    padding:30px;
+    margin: 20px;
+    border-radius: 12px;
+    border: 3px solid #d79652;
+    box-shadow: 4px solid #4b4b4b;
+    text-align: left;
+}
+.flexcolumn h1{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+
+form {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; 
+    margin: 0 auto; 
+}
+
+
+input[type="text"],
+input[type="email"] {
+    font-size: 14px;
+    padding: 4px;
+    margin-bottom: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comment {
+    font-size: 14px;
+    padding: 10px;
+    height: 10em;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+input[type="submit"] {
+    background-color: #b5b5b5;
+    font-size: 14pt;
+    border-radius: 12px;
+    text-align: center;
+    padding: 8px 12px; 
+}
+
+form input[type="submit"] {
+    align-self: center;
+}
